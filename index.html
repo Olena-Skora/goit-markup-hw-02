@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
     <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
 
-<header>
-<nav>
-    <a href="./index.html">WebStudio</a>
-        <ul>
-            <li>
-                <a href="#">Studio</a>
+<header class="header">
+<nav class="header-nav">
+    <a class="header-logo-accent" href="./index.html">Web<span class="header-logo">Studio</span></a>
+        <ul class="heaser-nav-list">
+            <li class="header-nav-item">
+                <a class="header-nav-link" href="#">Studio</a>
             </li>
-            <li>
-                <a href="#">Portfolio</a>
+            <li class="header-nav-item">
+                <a class="header-nav-link" href="#">Portfolio</a>
             </li>
-            <li>
-                <a href="#">Contacts</a>
+            <li class="header-nav-item">
+                <a class="header-nav-link" href="#">Contacts</a>
             </li>
         </ul>
 </nav>
-<address>
-    <ul>
-        <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+<address calss="header-contacts">
+    <ul class="header-contacts-list">
+        <li class="header-contacts-item">
+            <a class="header-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        <li class="header-contacts-item">
+            <a class="header-contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
     </ul>
 </address>
@@ -85,6 +93,41 @@
                 <img src="./images/foto/four.jpg" alt="Member four" width="264" height="260">
                 <h3>Daniel Wilson</h3>
                 <p>UI Designer</p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+            <li>
+                <img src="./images/foto/first.jpg" alt="Phone App" width="360" height="300" />
+                <h3>Banking App</h3>
+                <p>App</p>
+            </li>
+            <li>
+                <img src="./images/foto/second.jpg" alt="Payment with NFC" width="360" height="300" />
+                <h3>Cashless Payment</h3>
+                <p>Marketing</p>
+            </li>
+            <li>
+                <img src="./images/foto/third.jpg" alt="Computer and phone with the App" width="360" height="300" />
+                <h3>Meditation App</h3>
+                <p>App</p>
+            </li>
+            <li>
+                <img src="./images/foto/fourth.jpg" alt="Taxi driver with a phone" width="360" height="300" />
+                <h3>Taxi Service</h3>
+                <p>Marketing</p>
+            </li>
+            <li>
+                <img src="./images/foto/fifth.jpg" alt="A few illustrations on a phone screen" width="360" height="300" />
+                <h3>Screen Illustrations</h3>
+                <p>Design</p>
+            </li>
+            <li>
+                <img src="./images/foto/sixth.jpg" alt="Young woman with phone in her hand" width="360" height="300" />
+                <h3>Online Courses</h3>
+                <p>Marketing</p>
             </li>
         </ul>
     </section>
